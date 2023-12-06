@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Typewriter.ca</title>
+</head>
+<body>
+    <header>
+        <h1>Typewriters.ca</h1>
+        <p>Your one-stop shop for vintage typewriters!</p>
+    </header>
+
+
+
+
+     <nav class="navbar">
+
+        <ul>
+            <li> <a href="home.html" title="homepage"> Home </a> </li>
+            <li> <a href="promotion.html" title="Promotional details"> Promotional Details </a> </li>
+            <li> <a href="about.html" title="About the product">About the product</a> </li>
+            <li> <a href="support.html" title="support">Support</a> </li>
+            <li> <a href="corp.html" title="Corporationinfo">Corporation Information</a> </li>
+
+
+        </ul>
+    </nav>
+
+
+
+
+
+    <div class="product">
+        <img src="images/typewriter 1.png" alt=" Typewriter 1">
+        <div class="product-details">
+            <h2>Featured Typewriter</h2>
+            <p>A classic typewriter to enhance your writing experience.</p>
+            <p class="price">$299.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    
+        <div class="product">
+            <img src="images/typewriter 2.png" alt="Typewriter 2">
+            <div class="product-details">
+                <h3>Classic Model</h3>
+                <p>A timeless piece for your writing desk.</p>
+                <p class="price">$249.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="images/typewriter 3.png" alt="Typewriter 3">
+            <div class="product-details">
+                <h3>Retro Writer</h3>
+                <p>Feel the writing  with this retrotypewriter.</p>
+                <p class="price">$279.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="images/typewriter 4.png" alt="Typewriter 4">
+            <div class="product-details">
+                <h3>Antique Beauty</h3>
+                <p>An antique typewriter to add character to your collection.</p>
+                <p class="price">$349.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="images/typewriter 5.JPG" alt=" Typewriter 5">
+            <div class="product-details">
+                <h3>Modern Elegance</h3>
+                <p>A modern typewriter with a touch of elegance.</p>
+                <p class="price">$399.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    
+        <div class="form">
+            <form action="submit.php" method="post">
+        
+                <fieldset>
+                    <legend>Give us your Feedback</legend>
+        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+        
+                    <label for="feedback">Feedback:</label><br>
+                    <textarea id="feedback" name="feedback" rows="6" cols="50" required></textarea>
+                    <br>
+        
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="" disabled selected>Select a rating</option>
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Poor</option>
+                    </select>
+                    <br>
+        
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+
+ <section class="about-us">
+        <h2>About Us</h2>
+        <p>We are passionate about preserving the charm of typewriters. Our collection includes carefully restored machines that brings a creative touch to your writing space.</p>
+    </section>
+
+    <footer>
+        <p>&copy; Typewriters.ca</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
